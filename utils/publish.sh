@@ -6,6 +6,7 @@ if [ ! -z "$(git branch | grep gh-pages)" ]; then
     git branch -q -D gh-pages
 fi
 git checkout -b gh-pages
+git pull origin gh-pages
 
 # make notebook html
 mkdir -p html
