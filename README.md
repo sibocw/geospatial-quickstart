@@ -10,3 +10,6 @@ This project is currently under construction. Inputs and contributions are welco
 
 ## Table of Contents
 - [1-hour Geospatial Data Processing Cookbook](./notebooks/1hr-cookbook.ipynb)
+
+## Contribute
+You can contribute to this project at [this GitHub repo](https://github.com/sibowsb/geospatial-quickstart).
