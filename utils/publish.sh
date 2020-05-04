@@ -25,6 +25,5 @@ python utils/make_index.py
 # commit changes
 git add .
 git commit -m "[automated] update github pages"
-git reset --hard origin/gh-pages
-git push origin gh-pages
+git push --force origin gh-pages
 git checkout $current_branch
