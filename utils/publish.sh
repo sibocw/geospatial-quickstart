@@ -18,7 +18,8 @@ for ipynb in $(ls ./notebooks/*.ipynb); do
 done
 
 # make index html
-python make_index.py
+cd ..
+python utils/make_index.py
 
 # commit changes
 git add .
