@@ -17,6 +17,7 @@ for ipynb in $(ls ./notebooks/*.ipynb); do
 done
 rm notebooks
 cd ..
+mv html ..
 
 # make index html
 cd ..
