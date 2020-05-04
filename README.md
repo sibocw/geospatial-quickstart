@@ -9,7 +9,7 @@ This is a quick start guide for processing geospatial data, with a quick 1-hour 
 This project is currently under construction. Inputs and contributions are welcome.
 
 ## Table of Contents
-- [1-hour Geospatial Data Processing Cookbook](./notebooks/1hr-cookbook.ipynb)
+- [1-hour Geospatial Data Processing Cookbook](./html/1hr-cookbook.html)
 
 ## Contribute
 You can contribute to this project at [this GitHub repo](https://github.com/sibowsb/geospatial-quickstart).
