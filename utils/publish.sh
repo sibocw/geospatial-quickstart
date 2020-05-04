@@ -12,12 +12,12 @@ git pull origin master
 # make notebook html
 mkdir -p html
 cd html
-ln -s -f ../notebooks/figures .
+ln -s -f ../notebooks .
 cd ..
 for ipynb in $(ls ./notebooks/*.ipynb); do
     jupyter nbconvert $ipynb --to html --output-dir .
 done
-rm html/figures
+rm html/notebooks
 
 # make index html
 cd ..
