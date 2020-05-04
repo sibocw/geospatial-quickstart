@@ -11,12 +11,7 @@ git pull origin master
 # make notebook html
 mkdir -p html
 cd html
-ln -s -f ../notebooks .
-echo ===
-pwd
-ls
-echo ===
-ls notebooks
+ln -s -f ../../notebooks .
 for ipynb in $(ls ./notebooks/*.ipynb); do
     jupyter nbconvert $ipynb --to html --output-dir .
 done
