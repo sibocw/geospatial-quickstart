@@ -12,7 +12,7 @@ git pull origin gh-pages
 mkdir -p html
 cd html
 ln -s -f ../notebooks/figures .
-for ipynb in $(ls ./notebooks/*.ipynb); do
+for ipynb in $(ls ../notebooks/*.ipynb); do
     jupyter nbconvert $ipynb --to html --output-dir .
 done
 cd ..
